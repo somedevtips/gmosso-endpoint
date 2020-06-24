@@ -1,0 +1,123 @@
+# Copyright (C) 2020 Giancarlo Mosso
+# This file is distributed under the same license as the Gmosso Endpoint plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gmosso Endpoint 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gmosso-endpoint\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-06-20T14:02:44+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: gmosso-endpoint\n"
+
+#. Plugin Name of the plugin
+msgid "Gmosso Endpoint"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://giancarlomosso@bitbucket.org/giancarlomosso/gmosso-endpoint.git"
+msgstr ""
+
+#. Description of the plugin
+msgid "Test plugin for a new endpoint"
+msgstr ""
+
+#. Author of the plugin
+msgid "Giancarlo Mosso"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://somedevtips.com/"
+msgstr ""
+
+#. translators: 1: required PHP version (e.g. 7.4.0) 2: current PHP version
+#: src/Bootstrapper.php:95
+msgid "Gmosso Endpoint requires PHP version %1$s or higher. You are running version %2$s "
+msgstr ""
+
+#. translators: %s name of a parameter of the plugin
+#: src/Configuration.php:53
+msgid "%s parameter does not exist"
+msgstr ""
+
+#. translators: 1: name of PHP method 2: name of PHP class
+#: src/Configuration.php:86
+#: src/Configuration.php:105
+msgid "calling %1$s not allowed because class %2$s is read only"
+msgstr ""
+
+#: src/DataProvider/RestApiDataProvider.php:47
+msgid "no reply from server"
+msgstr ""
+
+#: src/DataProvider/RestApiDataProvider.php:134
+msgid "server replied with an error"
+msgstr ""
+
+#: src/DataProvider/RestApiDataProvider.php:150
+msgid "server replied with invalid format"
+msgstr ""
+
+#. translators: %d: identifier of the item that was not found
+#: src/Mvc/AbstractModel.php:108
+msgid "item %d not found"
+msgstr ""
+
+#: src/Mvc/Controllers.php:33
+msgid "key must be a string"
+msgstr ""
+
+#: src/Mvc/Controllers.php:39
+msgid "value must be AbstractController type"
+msgstr ""
+
+#. translators: %s if a string that identifies the controller
+#: src/Mvc/Controllers.php:60
+#: src/Mvc/Controllers.php:85
+msgid "controller with key %s not found in collection"
+msgstr ""
+
+#. translators: do not translate 'endpoint'
+#: src/Mvc/Router.php:113
+msgid "endpoint must be one of the configured endpoints"
+msgstr ""
+
+#. translators: do not translate 'itemId'
+#: src/Mvc/Router.php:127
+msgid "itemId must be integer"
+msgstr ""
+
+#. translators: %s: string that describes the error
+#: src/Mvc/View/ErrorView.php:29
+msgid "Error: %s"
+msgstr ""
+
+#. translators: %d: number that indicates the max length
+#: src/SimpleCache/TransientCache.php:99
+msgid "Key must be not empty string with max length %d"
+msgstr ""
+
+#. translators: do not translate null|int|dateInterval
+#: src/SimpleCache/TransientCache.php:145
+msgid "ttl value must be null|int|dateInterval"
+msgstr ""
+
+#: src/Users/AllUsersView.php:27
+msgid "value not found"
+msgstr ""
+
+#: src/Users/Controller.php:27
+msgid "All users"
+msgstr ""
+
+#: templates/general.php:79
+msgid "Click table item to read details"
+msgstr ""
+
+#: templates/general.php:105
+msgid "Please enable Javascript or use a browser that supports it to have full functionality"
+msgstr ""

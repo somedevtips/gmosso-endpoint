@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    bootstrap="./vendor/autoload.php"
+    colors="true"
+    verbose="true"
+    testdox="true"
+    defaultTestSuite="all"
+    >
+    <testsuites>
+        <testsuite name="all">
+            <directory>tests</directory>
+        </testsuite>
+        <testsuite name="Assets">
+            <directory>tests/Assets</directory>
+        </testsuite>
+        <testsuite name="DataProvider">
+            <directory>tests/DataProvider</directory>
+        </testsuite>
+        <testsuite name="Endpoint">
+            <directory>tests/Endpoint</directory>
+        </testsuite>
+        <testsuite name="Installation">
+            <directory>tests/Installation</directory>
+        </testsuite>
+        <testsuite name="Mvc">
+            <directory>tests/Mvc</directory>
+        </testsuite>
+        <testsuite name="SimpleCache">
+            <directory>tests/SimpleCache</directory>
+        </testsuite>
+        <testsuite name="Uninstallation">
+            <directory>tests/Uninstallation</directory>
+        </testsuite>
+        <testsuite name="Users">
+            <directory>tests/Users</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src</directory>
+        </whitelist>
+    </filter>
+
+     <logging>
+        <log
+            type="coverage-html"
+            target="../gmosso_endpoint_phpunitcoverage"
+        />
+    </logging>
+</phpunit>

@@ -1,0 +1,36 @@
+{
+    "name": "gmosso/gmosso-endpoint",
+    "description": "WordPress plugin to manage a custom endpoint",
+    "keywords": ["wordpress", "plugin", "gmosso", "endpoint"],
+    "homepage": "https://giancarlomosso@bitbucket.org/giancarlomosso/gmosso-endpoint.git",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Giancarlo Mosso",
+            "email": "giancarlo.mosso@gmail.com",
+            "homepage": "https://somedevtips.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "seld/jsonlint": "^1.8",
+        "psr/log": "^1.1"
+    },
+    "require-dev": {
+        "inpsyde/php-coding-standards": "^0.13",
+        "brain/monkey": "^2.4",
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "GmossoEndpoint\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GmossoEndpoint\\Tests\\": "tests"
+        }
+    }
+}

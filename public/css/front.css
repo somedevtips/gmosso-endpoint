@@ -1,0 +1,70 @@
+.gmosso-endpoint-page {
+    padding: 0 1rem;
+    margin: 0;
+}
+
+#table-items {
+    display: block;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 1em;
+    max-width: 1000px;
+}
+
+.table-cell {
+    width: 100%;
+    padding: 0.8em 1.2em;
+    border: solid 1px #a9b3bc;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.table-cell.heading {
+    background-color: #999;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.table-cell.details {
+    width: 100%;
+}
+
+.table-cell.dark {
+    background-color: #EDEDED;
+}
+
+.table-cell.last {
+    margin-bottom: 1em;
+}
+
+.table-cell.name,
+.field-name {
+    font-weight: bold;
+}
+
+noscript {
+    display: block;
+    font-weight: bold;
+    padding: 2rem 0;
+}
+
+@media all and (min-width: 600px) {
+    .gmosso-endpoint-page {
+        padding: 1rem;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    #table-items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .table-cell {
+        width: 33.33%;
+    }
+
+    .table-cell.last {
+        margin-bottom: 0;
+    }
+}
